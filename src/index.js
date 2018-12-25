@@ -1,2 +1,4 @@
 import nav from "./nav";
-console.log(nav());
+import {top, bottom} from "./footer";
+import makeButton from "./button";
+console.log(nav(), top, bottom, makeButton("My first button"));
